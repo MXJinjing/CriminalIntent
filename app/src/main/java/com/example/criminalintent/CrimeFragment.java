@@ -33,7 +33,8 @@ public class CrimeFragment extends Fragment{
 
     @Nullable
     @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
+                             @Nullable Bundle savedInstanceState) {
         View v = inflater.inflate(R.layout.fragment_crime,container,false);
 
         mTitleField = (EditText) v.findViewById(R.id.crime_title);
