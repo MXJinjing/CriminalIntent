@@ -4,7 +4,7 @@ import java.util.Date;
 import java.util.UUID;
 
 public class Crime {
-    private UUID mId;
+    private static UUID mId;
     private String mTitle;
 
     private Date mDate;
@@ -16,7 +16,7 @@ public class Crime {
         mDate = new Date();
     }
 
-    public UUID getId() {
+    public static UUID getId() {
         return mId;
     }
 
